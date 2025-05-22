@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Haven Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Aroma<span>Haven</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Rasakan Surga Kopi</h1>
+            <p>Kopi racikan tangan dan pastry lezat dalam suasana yang hangat dan nyaman</p>
+            <a href="#menu" class="btn">Lihat Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Tentang Aromahaven</h2>
+                    <p>Selamat datang di Aromahaven, tempat di mana setiap aroma kopi membawa ketenangan. Kami hadir sebagai ruang nyaman untuk melepas penat, menikmati waktu, dan menyeduh cerita.</p>
+                    <p>Di Aromahaven, kami menyajikan kopi terbaik dari biji pilihan nusantara, diracik dengan penuh perhatian oleh barista berpengalaman. Lebih dari sekadar tempat ngopi, Aromahaven adalah tempat singgah—untuk bekerja, bertemu, atau sekadar menikmati waktu untuk diri sendiri.</p>
+                    <p>Aromahaven — Rasa yang Menenangkan, Suasana yang Menginspirasi.</p>
+                    <a href="#contact" class="btn btn-outline">Visit Us</a>
+                </div>
+                <div class="about-image">
+                    <img src="../images/Coffee shop interior.jpg" alt="Coffee shop interior" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="special" class="special">
+        <div class="container">
+            <h2>Apa yang Membuat Kami Istimewa</h2>
+            <div class="special-items">
+                <div class="special-item">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Biji Kopi Premium</h3>
+                    <p>Kami menggunakan biji kopi berkualitas terbaik dari berbagai penjuru dunia.</p>
+                </div>
+                <div class="special-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Peduli Lingkungan</h3>
+                    <p>Kami berusaha ramah lingkungan dan mengurangi sampah sebisa mungkin.</p>
+                </div>
+                <div class="special-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Komunitas</h3>
+                    <p>Ruang yang terbuka dan hangat untuk semua orang menikmati dan terhubung satu sama lain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="coffee">Coffee</button>
+                <button class="menu-tab" data-tab="pastries">Pastries</button>
+                <button class="menu-tab" data-tab="specials">Specials</button>
+            </div>
+            <div class="menu-content active" id="coffee-menu">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="../images/espresso.jpg" alt="espresso">
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Espresso</h3>
+                            <p>Sajian klasik dengan karakter tajam dan aroma yang kaya</p>
+                            <span class="price">Rp 20.000</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="../images/cappucinno.jpg" alt="cappucinno" />
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Cappuccino</h3>
+                            <p>Rasa kopi yang kuat dibalut kelembutan foam susu, cocok untuk dinikmati kapan saja</p>
+                            <span class="price">Rp 25.000</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="../images/latte.jpg" alt="latte" />
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Latte</h3>
+                            <p>Perpaduan sempurna antara kopi dan susu, cocok untuk kamu yang suka rasa ringan</p>
+                            <span class="price">Rp 25.000</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="../images/cold brew.jpg" alt="cold brew" />
+                        </div>
+                        <div class="menu-item-info">
+                            <h3>Cold Brew</h3>
+                            <p>Diseduh perlahan dengan air dingin selama berjam-jam, menghasilkan rasa kopi yang ringan namun kaya</p>
+                            <span class="price">Rp 30.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-content" id="pastries-menu">
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/croissant.jpg" alt="croissant">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Butter Croissant</h3>
+                        <p>Croissant lembut dan berlapis, dengan aroma mentega yang menggoda di setiap gigitan</p>
+                        <span class="price">Rp 10.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/cinnamon roll.jpg" alt="cinnamon roll">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Roti manis beraroma kayu manis yang sempurna, cocok untuk menemani waktu santai anda</p>
+                        <span class="price">Rp 15.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/blueberry muffin.jpg" alt="blueberry muffin" />
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Blueberry Muffin</h3>
+                        <p>Muffin yang dipanggang dengan sempurna, dipenuhi dengan blueberry juicy yang memberikan rasa segar di setiap suapan</p>
+                        <span class="price">Rp 12.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/chocolate cake.jpg" alt="chocolate cake" />
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Chocolate Cake Slice</h3>
+                        <p>Potongan kue coklat yang lembut dengan lapisan ganache coklat yang kaya dan meleleh di mulut</p>
+                        <span class="price">Rp 13.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-content" id="specials-menu">
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/seasonal latte.jpg" alt="seasonal latte">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Seasonal Latte</h3>
+                        <p>Kopi latte dengan sentuhan rasa musiman, seperti rempah hangat atau sirup buah segar, menyegarkan suasana setiap musim
+                        </p>
+                        <span class="price">Rp 18.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/affogato.jpg" alt="affogato" />
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Affogato</h3>
+                        <p>Kombinasi sempurna antara epresso panas dan es krim vanila yang lembut, meleleh di mulut </p>
+                        <span class="price">Rp 20.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/caramel macciato.jpg" alt="caramel macciato" />
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Signature Blend Brew</h3>
+                        <p>Kopi seduh dengan campuran bijih pilihan, memberikan rasa yang unik dan khas, hanya ada di tempat kami</p>
+                        <span class="price">Rp 20.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="../images/matcha latte.jpg" alt="matcha latte" />
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Matcha Latte</h3>
+                        <p>Perpaduan sempurna antara teh hijau matcha yang kaya rasa dan susu creamy yang lembut, menyegarkan dan menenangkan</p>
+                        <span class="price">Rp 18.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item-image">
+                    <img src="../images/Coffee shop atmosphere.jpg" alt="Coffee shop atmosphere" />
+                    <p>Suasana kedai kopi</p>
+                </div>
+                <div class="gallery-item-image">
+                    <img src="../images/Pastries display.jpg" alt="Pastries display" />
+                    <p>Etalase kue dan pastry</p>
+                </div>
+                <div class="gallery-item-image">
+                    <img src="../images/Coffee shop exterior.jpg" alt="Coffee shop exterior" />
+                    <p>Tampilan luar kedai kopi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="testimoni">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimoni-container">
+                <div class="testimoni">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Kopi terenak yang pernah saya minum! Tempatnya nyaman banget dan orang-orangnya ramah semua."</p>
+                    <h4>- Sarah J.</h4>
+                </div>
+                <div class="testimoni">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Setiap pagi saya pasti ke sini. Espresso-nya juara, dan pastrynya selalu fresh!"</p>
+                    <h4>- Michael T.</h4>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Tempat yang cocok buat kerja atau kumpul bareng teman. Suasananya enak, dan menu musiman mereka selalu menarik."</p>
+                    <h4>- Emma R.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Kunjungi Kami</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jl.Kenanga no 11 </p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Senin - Jumat: 7.00 - 20.00 WIB<br>Weekends: 8.00 - 22.00 WIB</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 812 3456 7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>hello@aromahaven.com</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Aroma<span>Haven</span></h2>
+                    <p>Where every cup tells a story</p>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Aroma Haven Coffee Shop. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple menu tab functionality
+        const menuTabs = document.querySelectorAll('.menu-tab');
+        const menuContents = document.querySelectorAll('.menu-content');
+        
+        menuTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                menuTabs.forEach(tab => tab.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Show corresponding content
+                const tabId = tab.getAttribute('data-tab');
+                menuContents.forEach(content => {
+                    content.classList.remove('active');
+                    if (content.id === tabId + '-menu') {
+                        content.classList.add('active');
+                    }
+                });
+            });
+        });
+        
+        // Mobile menu toggle
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
+</body>
+</html>
